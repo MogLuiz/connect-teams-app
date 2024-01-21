@@ -1,4 +1,4 @@
-import { GroupsScreen } from "./src/screens/Groups";
+import { GroupsScreen } from "@screens/Groups";
 
 export default function App() {
   return <GroupsScreen />;
