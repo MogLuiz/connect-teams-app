@@ -1,4 +1,4 @@
-import { ActivityIndicator } from "react-native";
+import { Loading } from "@components/Loading";
 import { GroupsScreen } from "@screens/Groups";
 import { ThemeProvider } from "styled-components";
 import {
@@ -13,7 +13,7 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      {fontsLoaded ? <GroupsScreen /> : <ActivityIndicator />}
+      {fontsLoaded ? <GroupsScreen /> : <Loading />}
     </ThemeProvider>
   );
 }
