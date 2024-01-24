@@ -3,6 +3,6 @@ import * as S from "./styles";
 
 export const GroupsScreen = () => (
   <S.Container>
-    <Header />
+    <Header hasBackButton />
   </S.Container>
 );
