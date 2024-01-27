@@ -3,6 +3,7 @@ import * as S from "./styles";
 import { Header } from "@components/Header";
 import { Button } from "@components/Button";
 import { Highlight } from "@components/Highlight";
+import { Input } from "@components/Input";
 
 export const NewGroupScreen = () => (
   <S.Container>
@@ -16,7 +17,9 @@ export const NewGroupScreen = () => (
         subtitle="crie a turma para adicionar as pessoas"
       />
 
-      <Button title="Criar" />
+      <Input />
+
+      <Button title="Criar" style={{ marginTop: 20 }} />
     </S.Content>
   </S.Container>
 );
